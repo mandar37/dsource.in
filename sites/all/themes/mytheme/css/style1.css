@@ -5,7 +5,7 @@
 }
 
 .text-brand { color: #25B0E5; }
-.text-gray {color : #555; }
+.text-gray {color : #555;margin-top:5px; }
 
 /* http://www.mademyday.de/css-height-equals-width-with-pure-css.html */
 .box{
