@@ -79,7 +79,8 @@
     <section class="main">
       <div class="container" >
         <div class="row search-bar">
-          <div class="col-md-push-7 col-md-5">
+            <div class="col-sm-12">
+         <!-- <div class="col-md-push-7 col-md-5">-->
             <div class="input-group">
               <input type="text" class="form-control" placeholder="Search">
               <span class="input-group-btn">

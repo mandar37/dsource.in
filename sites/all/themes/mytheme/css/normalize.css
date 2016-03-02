@@ -352,7 +352,7 @@ ul {
     padding: 0 0 0 0;
 }
 
-/* Correct list images handled incorrectly in IE 7. */
+ /* Correct list images handled incorrectly in IE 7. */
 nav ul,
 nav ol {
   list-style: none;
@@ -562,7 +562,12 @@ table {
 {
     float: left;
     margin-right: 10px;
+    padding-top: 10px;
     height:110px;
+}
+.media-heading
+{
+    padding-top: 10px;
 }
 .dept
 {
@@ -634,8 +639,71 @@ ul.menu>li.active
     margin-bottom: 10px;
 }
 
+@media(min-width: 320px){
+.temp2
+{
+    position: absolute;
+    top: 88%;
+    bottom: 0;
+    left:24%;
+    right:0;
+    
+}
+.temp2:after
+{
+    content: ":";
+}    
+}
+@media(min-width: 480px){
+.temp2
+{
+    position: absolute;
+    top: 88%;
+    bottom: 0;
+    left:16%;
+    right:0;
+    
+}
+.temp2:after
+{
+    content: ":";
+}    
+}
+@media(min-width: 768px){
+.temp2
+{
+    position: absolute;
+    top: 88%;
+    bottom: 0;
+    left:13%;
+    right:0;
+    
+}
+.temp2:after
+{
+    content: ":";
+}    
+}
+@media(min-width: 992px){
+.temp2
+{
+    position: absolute;
+    top: 88%;
+    bottom: 0;
+    left:11%;
+    right:0;
+    
+}
+.temp2:after
+{
+    content: ":";
+}    
+}
 
-@media(min-width: 769px){
+
+
+
+/*@media(min-width: 769px){
     
 .index_title{
     position: relative;
@@ -657,6 +725,7 @@ ul.menu>li.active
     position: relative;
     left: -16%;
     top:40px;
+    color: red;
     
 }    
 .index_title:after
@@ -726,4 +795,9 @@ ul.menu>li.active
 {
     content: ":";
 }
+}*/
+
+
+p{
+    text-align: justify;
 }

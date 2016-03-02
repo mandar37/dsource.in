@@ -27,7 +27,7 @@
  * @ingroup views_templates
  */
 ?>
-<div class="<?php print $classes; print "hello" ?>">
+
   <?php print render($title_prefix); ?>
   <?php if ($title): ?>
     <h3><?php print $title; ?></h3>
@@ -54,7 +54,6 @@
   <?php if ($rows): ?>
     <div class="row">
         <div class="col-sm-12">
-            
             <?php print $rows; ?>
         </div>    
     </div>
@@ -90,4 +89,4 @@
     </div>
   <?php endif; ?>
 
-</div><?php /* class view */ ?>
+<?php /* class view */ ?>
