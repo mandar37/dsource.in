@@ -153,7 +153,7 @@
         </div>
     </div>
 </div>
-    <div id="navigation">
+    <!--<div id="navigation">
 
       <?php if ($main_menu): ?>
         <nav id="main-menu" role="navigation" tabindex="-1">
@@ -178,7 +178,7 @@
 
       <?php print render($page['navigation']); ?>
 
-    </div>
+    </div>-->
 
     
 

@@ -345,7 +345,11 @@ dd {
 menu,
 ol,
 ul {
-  padding: 0 0 0 0;//30px; /* LTR */
+  //padding: 0 0 0 0;//30px; /* LTR */
+}
+.menu
+{
+    padding: 0 0 0 0;
 }
 
 /* Correct list images handled incorrectly in IE 7. */
@@ -584,6 +588,7 @@ padding-bottom: 15px;
 ul.menu>li
 {
         padding: 8px 5px 6px 8px;
+        margin-bottom:2px; 
 }
 ul.menu>li.active>a,ul.menu>li.active>a:hover, ul.menu>li.active>a:focus 
 {
@@ -617,4 +622,108 @@ ul.menu>li.active
 {
         visibility: hidden;
     
+}
+.node-padding
+{
+        
+        margin-bottom: 20px;
+    
+}
+.dept-title
+{
+    margin-bottom: 10px;
+}
+
+
+@media(min-width: 769px){
+    
+.index_title{
+    position: relative;
+    left: -18%;
+    top:40px;
+    
+}
+.index_title:after
+{
+    content: ":";
+}
+    
+    
+}
+
+@media(max-width: 991px){
+    
+    .index_title{
+    position: relative;
+    left: -16%;
+    top:40px;
+    color: blue;
+}    
+.index_title:after
+{
+    content: ":";
+}    
+}
+
+@media(max-width: 768px){
+    
+    .index_title{
+    position: relative;
+    left: 9%;
+    top:-20px;   
+}
+.index_title:after
+{
+    content: ":";
+}
+}
+@media(max-width: 650px){
+    
+    .index_title{
+    position: relative;
+    left: 13%;
+    top:-20px;
+    }
+.index_title:after
+{
+    content: ":";
+}
+}
+@media(max-width: 450px){
+    
+    .index_title{
+    position: relative;
+    left: 19%;
+    top:-20px;
+}
+.index_title:after
+{
+    content: ":";
+}
+}
+@media(max-width: 300px){
+    
+    .index_title{
+    position: relative;
+    left: 22%;
+    top:-20px;
+ 
+}
+.index_title:after
+{
+    content: ":";
+}
+}
+@media(max-width: 250px){
+    
+    .index_title{
+    position: relative;
+    left: 25%;
+    top:-20px;
+ 
+}
+.index_title:after
+{
+    content: ":";
+}
 }
