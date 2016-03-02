@@ -345,7 +345,7 @@ dd {
 menu,
 ol,
 ul {
-  padding: 0 0 0 30px; /* LTR */
+  padding: 0 0 0 0;//30px; /* LTR */
 }
 
 /* Correct list images handled incorrectly in IE 7. */
@@ -566,9 +566,55 @@ table {
 }
 .index-page-title
 {
-display: table-cell;
-vertical-align: bottom;
+    display: table-cell;
+    vertical-align: bottom;
 height: 115px;
 line-height: 1.3;
-padding-bottom:15px;
+padding-bottom: 15px;
+
+}
+
+
+.menu__item
+{
+    
+   list-style: none;
+   
+}
+ul.menu>li
+{
+        padding: 8px 5px 6px 8px;
+}
+ul.menu>li.active>a,ul.menu>li.active>a:hover, ul.menu>li.active>a:focus 
+{
+    color: #fff;   
+    text-decoration: none;
+}
+ul.menu>li:hover
+{
+    background-color: #EEE;
+    border-radius: 4px;
+}
+ul.menu>li>a:hover
+{
+    text-decoration: none;
+}
+ul.menu>li.active 
+{
+    background-color: #F69E64;
+    border-radius: 4px;
+}
+.menu > li > a {
+    position: relative;
+    display: block;
+    padding-top: 0px;
+    padding-right:5px;
+    padding-bottom: 0px;
+    padding-left: 22px;
+}
+
+.block-title
+{
+        visibility: hidden;
+    
 }

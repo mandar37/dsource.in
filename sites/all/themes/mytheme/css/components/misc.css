@@ -445,7 +445,7 @@ span.field-label {
 /**
  * Menus.
  */
-.menu__item.is-leaf {
+/*.menu__item.is-leaf {
   list-style-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHBAMAAAA2fErgAAAAD1BMVEX///+/v7+Li4sAAADAwMBFvsw8AAAAAXRSTlMAQObYZgAAAB1JREFUCFtjYAADYwMGBmYVZSDhKAwkFJWhYiAAAB2+Aa/9ugeaAAAAAElFTkSuQmCC');
   *list-style-image: url('../../images/menu-leaf.png');
   list-style-type: square;
@@ -456,10 +456,10 @@ span.field-label {
   list-style-type: circle;
 }
 .menu__item.is-collapsed {
-  list-style-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHAQMAAAD+nMWQAAAABlBMVEX///8AAABVwtN+AAAAAXRSTlMAQObYZgAAABFJREFUCB1jVmCGQClmEWYOAAZ8AMy3HPLXAAAAAElFTkSuQmCC'); /* LTR */
-  *list-style-image: url('../../images/menu-collapsed.png'); /* LTR */
+  list-style-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHAQMAAAD+nMWQAAAABlBMVEX///8AAABVwtN+AAAAAXRSTlMAQObYZgAAABFJREFUCB1jVmCGQClmEWYOAAZ8AMy3HPLXAAAAAElFTkSuQmCC'); 
+  list-style-image: url('../../images/menu-collapsed.png'); 
   list-style-type: disc;
-}
+}*/
 
 /* The active item in a Drupal menu. */
 .menu a.active {
