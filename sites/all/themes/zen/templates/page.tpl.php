@@ -56,7 +56,7 @@
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
               <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.php">
+<a href="<?php print $front_page; ?>" class="navbar-brand">
                 D&#8217;source
             </a>
           </div>
@@ -64,12 +64,12 @@
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
             <ul class="nav navbar-right navbar-nav">
-              <li><a href="courses">Courses</a></li>
-              <li><a href="resources">Resources</a></li>
-              <li><a href="casestudy">Case study</a></li>
-              <li><a href="showcase">Showcase</a></li>
-              <li><a href="gallery">Gallery</a></li>
-              <li><a href="video">Videos</a></li>
+              <li><a href="<?php print $front_page; ?>courses">Courses</a></li>
+              <li><a href="<?php print $front_page; ?>resources">Resources</a></li>
+              <li><a href="<?php print $front_page; ?>case-study">Case study</a></li>
+              <li><a href="<?php print $front_page; ?>showcase">Showcase</a></li>
+              <li><a href="<?php print $front_page; ?>gallery">Gallery</a></li>
+              <li><a href="<?php print $front_page; ?>video">Videos</a></li>
             </ul>
             
           </div>
