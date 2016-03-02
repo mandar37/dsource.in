@@ -69,7 +69,7 @@ stylesheets[all][] = css/bootstrap.min.css
 ; Optionally add some JavaScripts to your theme.
 
 ;scripts[] = js/script.js
-scripts[] = js/jquery-2.1.1.min.js
+;scripts[] = js/jquery-2.1.1.min.js
 scripts[] = js/bootstrap.js
 scripts[] = js/bootstrap.min.js
 
