@@ -64,8 +64,8 @@
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
             <ul class="nav navbar-right navbar-nav">
-              <li><a href="<?php print $front_page; ?>courses">Courses</a></li>
-              <li><a href="<?php print $front_page; ?>resources">Resources</a></li>
+              <li><a href="<?php print $front_page; ?>course">Courses</a></li>
+              <li><a href="<?php print $front_page; ?>resource">Resources</a></li>
               <li><a href="<?php print $front_page; ?>case-study">Case study</a></li>
               <li><a href="<?php print $front_page; ?>showcase">Showcase</a></li>
               <li><a href="<?php print $front_page; ?>gallery">Gallery</a></li>

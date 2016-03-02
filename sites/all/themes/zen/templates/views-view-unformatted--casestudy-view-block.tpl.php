@@ -17,6 +17,7 @@
   <?php }?>
         <div class="col-sm-6">
           <?php print $row; $i++;?>
+          <br />
         </div>
   <?php if($i%2==1){ ?>
       </div>
